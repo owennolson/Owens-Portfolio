@@ -46,7 +46,22 @@ body {
 main {
     font-family: Courier, monospace;
 }
-main h2 {
+aside h2 {
+    position: relative;
     color: #FF6F00;
+    font-size: 50px;
+    padding: 20px;
+    margin-right: 61%;
+    margin-left: 20%;
+    border-radius: 5px;
+    border-style: dashed;
+}
+section p {
+    position: relative;
+    font-size: 20px;
+    padding: 50px;
+    margin-left: 40%;
+    border-radius: 5px;
+    border-style: dashed;
 
 }
