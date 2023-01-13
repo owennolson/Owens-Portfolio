@@ -1,0 +1,52 @@
+/*adds a border around the whole webpage*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*sets the color of the background*/
+body {
+    background-color: #ffffff;
+}
+.header nav {
+    position: absolute;
+    top: 10px;
+    font-family: Courier, monospace;
+    font-size: 30px;
+}
+.header nav ul {
+    list-style-type: none;
+}
+.header nav ul li {
+    display: inline-block;
+    margin-left: 350px;
+    color: azure;
+}
+.header a {
+    color: azure;
+    text-decoration: none;
+}
+.header {
+    position: relative;
+}
+.header img {
+    width: 100%;
+    height: auto;
+}
+.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    color: azure;
+    font-family: Courier, monospace;
+}
+
+main {
+    font-family: Courier, monospace;
+}
+main h2 {
+    color: #FF6F00;
+
+}
