@@ -46,22 +46,74 @@ body {
 main {
     font-family: Courier, monospace;
 }
-aside h2 {
-    position: relative;
+article h2 {
+    margin: 20px;
     color: #FF6F00;
     font-size: 50px;
-    padding: 20px;
-    margin-right: 61%;
-    margin-left: 20%;
-    border-radius: 5px;
-    border-style: dashed;
+    
+    width: 400px;
 }
-section p {
-    position: relative;
+article p {
+    margin: 20px;
     font-size: 20px;
-    padding: 50px;
-    margin-left: 40%;
-    border-radius: 5px;
-    border-style: dashed;
+    
+    width: 400px;
 
+}
+article ul {
+    width: 400px;
+    margin: 20px;
+    list-style: none;
+}
+.page-grid {
+    margin: 20px;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2,  1fr);
+    grid-template-rows: repeat(3,  1fr);
+    justify-items: center;
+    
+}
+.Contact-info {
+    grid-column-start: 2;
+    grid-row-start: -2;
+}
+.Contact {
+    grid-column-start: 1;
+    grid-row-start: -2;
+}
+.Work-Grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    margin: 20px;
+
+}
+.Orange-SS {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 640px;
+    height: 390px;
+}
+.Sky-SS {
+    width: 300px;
+    height: 175px;
+}
+.Classified-SS {
+    width: 300px;
+    height: 175px;
+}
+.Horiseon-SS {
+    width: 300px;
+    height: 175px;
+}
+.PreWork-SS {
+    width: 300px;
+    height: 175px;
+}
+.Ytub-SS{
+    width: 300px;
+    height: 175px;
 }
