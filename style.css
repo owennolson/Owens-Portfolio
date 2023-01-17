@@ -46,21 +46,21 @@ body {
 main {
     font-family: Courier, monospace;
 }
-article h2 {
+section h2 {
     margin: 20px;
     color: #FF6F00;
     font-size: 50px;
     
     width: 400px;
 }
-article p {
+section p {
     margin: 20px;
     font-size: 20px;
     
     width: 400px;
 
 }
-article ul {
+section ul {
     width: 400px;
     margin: 20px;
     list-style: none;
@@ -116,4 +116,7 @@ article ul {
 .Ytub-SS{
     width: 300px;
     height: 175px;
+}
+footer {
+    
 }
