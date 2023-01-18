@@ -10,10 +10,9 @@ body {
 }
 .header nav {
     position: absolute;
-    top: 0px;
+    top: 0%;
     font-family: Courier, monospace;
     font-size: 30px;
-    border-style: dashed;
 }
 .header nav ul {
     list-style-type: none;
@@ -30,40 +29,30 @@ body {
 .header {
     position: relative;
 }
-.header img {
+
+.header-img {
     width: 100%;
     height: auto;
+}
+.Avatar {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin-top: -15%;
+    margin-left: 5%;
+    border-radius: 50%;
 }
 .header h1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 150px;
+    font-size: 9rem;
     color: azure;
     font-family: Courier, monospace;
 }
 main {
     font-family: Courier, monospace;
-}
-section h2 {
-    margin: 20px;
-    color: #FF6F00;
-    font-size: 50px;
-    
-    width: 400px;
-}
-section p {
-    margin: 20px;
-    font-size: 20px;
-    
-    width: 400px;
-
-}
-section ul {
-    width: 400px;
-    margin: 20px;
-    list-style: none;
 }
 .page-grid {
     margin: 20px;
@@ -74,6 +63,22 @@ section ul {
     justify-items: center;
     
 }
+section h2 {
+    color: #FF6F00;
+    font-size: 4rem;
+    width: 400px;
+}
+section p {
+    margin: 20px;
+    font-size: 20px;
+    width: 400px;
+}
+.Contact-info ul {
+    width: 400px;
+    margin: 20px;
+    list-style: none;
+}
+
 .Contact-info {
     grid-column-start: 2;
     grid-row-start: -2;
@@ -117,6 +122,15 @@ section ul {
     width: 300px;
     height: 175px;
 }
+.Contact-info ul {
+    font-size: 1rem;
+    list-style: none;
+
+}
+.Contact-info ul li {
+    display: inline-block;
+    margin: 10px;
+}
 footer {
-    
+    font-family: Courier, monospace;
 }
