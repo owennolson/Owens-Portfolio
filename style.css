@@ -96,35 +96,40 @@ section p {
     margin: 20px;
 
 }
-.Orange-SS {
-    grid-column: span 2;
-    grid-row: span 2;
-    width: 640px;
-    height: 390px;
-}
-.Sky-SS {
-    width: 300px;
+.images {
     height: 175px;
-}
-.Classified-SS {
     width: 300px;
-    height: 175px;
 }
-.Horiseon-SS {
-    width: 300px;
-    height: 175px;
+.Work-Grid h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: rgb(255, 237, 197);
+    font-family: Courier, monospaced;
+    display: none;
+    background-color: #FF6F00;
+    border-radius: 5%;
 }
-.PreWork-SS {
-    width: 300px;
-    height: 175px;
+.images {
+    position: relative;
 }
-.Ytub-SS{
-    width: 300px;
-    height: 175px;
+.images:hover h3 {
+    display: block;
+}
+.images:hover a {
+    filter: blur(5px);
+
+
 }
 .Contact-info ul {
-    font-size: 1rem;
     list-style: none;
+}
+.Contact-info a {
+    font-size: 1rem;
+    color:#FF6F00;
+    text-decoration: none;
 
 }
 .Contact-info ul li {
